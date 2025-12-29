@@ -57,7 +57,7 @@ export default function NavBar() {
           </nav>
 
           <div className="bg-[#9C4F3A] text-[#F7F4F1] px-6 py-3 rounded-lg font-medium hover:bg-[#8A4432] cursor-pointer transition">
-            <a href="https://wa.me/5573999835281?text=Olá,%20gostaria%20de%20agendar%20uma%20sessão." target="_blank">Agendar Sessão</a>
+            <a href="https://wa.me/5573999835281?text=Olá,%20gostaria%20de%20agendar%20uma%20sessão." target="_blank" rel="noopener noreferrer">Agendar Sessão</a>
           </div>
         </div>
 
@@ -115,7 +115,7 @@ export default function NavBar() {
           </nav>
 
           <div className="mt-4 w-full bg-[#9C4F3A] text-[#F7F4F1] px-6 py-3 rounded-lg font-medium hover:bg-[#8A4432] transition">
-            <a href="https://wa.me/5573999835281?text=Olá,%20gostaria%20de%20agendar%20uma%20sessão." target="_blank">Agendar Sessão</a>
+            <a href="https://wa.me/5573999835281?text=Olá,%20gostaria%20de%20agendar%20uma%20sessão." target="_blank" rel="noopener noreferrer">Agendar Sessão</a>
           </div>
         </div>
       </div>

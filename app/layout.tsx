@@ -3,7 +3,7 @@ import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import AOSProvider from "@/components/AOSProvider";
 
-const siteUrl = "https://brunaalmeidapsi.com";
+const siteUrl = "https://brunalmeidapsi.com";
 const title = "Bruna Almeida | Psicóloga Clínica (Psicanálise)";
 const description = "Atendimento clínico com escuta ética, responsável e acolhedora. Agende sua sessão.";
 

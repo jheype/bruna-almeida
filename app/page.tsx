@@ -26,7 +26,7 @@ export default function Home() {
             </p>
 
             <div className="mt-3 cursor-pointer bg-[#9C4F3A] px-8 py-4 rounded-lg text-sm font-medium hover:bg-[#8A4432] transition">
-              <a href="https://wa.me/5573999835281?text=Olá,%20gostaria%20de%20agendar%20uma%20sessão." target="_blank">Agendar Sessão</a>
+              <a href="https://wa.me/5573999835281?text=Olá,%20gostaria%20de%20agendar%20uma%20sessão." target="_blank" rel="noopener noreferrer">Agendar Sessão</a>
             </div>
           </div>
 
@@ -55,7 +55,7 @@ export default function Home() {
             profunda e responsável.
           </p>
           <div className="mt-10 inline-flex items-center gap-3 rounded-sm border border-[#9C4F3A]/50 bg-transparent px-7 py-4 text-[#9C4F3A] font-medium shadow-[0_6px_18px_rgba(156,79,58,0.10)] hover:border-[#9C4F3A] hover:bg-[#9C4F3A]/10 transition cursor-pointer">
-            <a href="https://wa.me/5573999835281?text=Olá,%20gostaria%20de%20agendar%20uma%20sessão." target="_blank">Agendar Sessão</a>
+            <a href="https://wa.me/5573999835281?text=Olá,%20gostaria%20de%20agendar%20uma%20sessão." target="_blank" rel="noopener noreferrer">Agendar Sessão</a>
             <FiArrowRight className="text-lg" />
           </div>
         </div>
