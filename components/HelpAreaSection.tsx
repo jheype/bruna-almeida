@@ -19,11 +19,11 @@ export default function HelpAreaSection() {
       <div className="relative mx-auto w-full max-w-6xl px-6">
         {/* Title with side lines */}
         <div className="flex items-center justify-center gap-6">
-          <div className="hidden sm:block h-px w-40 bg-[#9C4F3A]/70" />
-          <h2 className="text-4xl font-medium text-[#2B2B2B]">
+          <div className="hidden sm:block h-px w-40 bg-[#69947d]/70" />
+          <h2 className="text-4xl font-medium text-[#69947d]">
             Áreas que posso te ajudar
           </h2>
-          <div className="hidden sm:block h-px w-40 bg-[#9C4F3A]/70" />
+          <div className="hidden sm:block h-px w-40 bg-[#69947d]/70" />
         </div>
 
         {/* Cards grid */}

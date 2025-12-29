@@ -82,7 +82,7 @@ export default function Home() {
           },
           {
             institution: "UNEB",
-            description: "Mestranda em Estudos literários",
+            description: "Mestranda em Estudos Literários",
             active: true,
           },
         ]}
