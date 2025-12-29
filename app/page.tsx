@@ -1,65 +1,101 @@
-import Image from "next/image";
+import HelpAreaSection from "@/components/HelpAreaSection";
+import EducationSection from "@/components/EducationSection";
+import CTASection from "@/components/CTASection";
+import NavBar from "@/components/NavBar";
+import { FiArrowRight } from "react-icons/fi";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+    <main className="bg-[#F7F4F1]">
+      {/* Header */}
+      <NavBar />
+
+      {/* Hero Section */}
+      <section className="relative flex w-full bg-[#2F3E36] text-[#F7F4F1] px-6 py-14 sm:px-10 sm:py-16 lg:px-20 lg:py-20 overflow-hidden">
+        <div className="flex w-full flex-col lg:flex-row lg:items-center lg:justify-between gap-12">
+          {/* Left: Text (keeps your structure, just responsive widths) */}
+          <div className="flex flex-col items-start gap-6 w-full lg:w-[60%] lg:mt-10">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-medium w-full lg:w-[65%] leading-tight">
+              Psicanálise para quem deseja se conhecer com profundidade
+            </h1>
+
+            <p className="text-sm sm:text-base opacity-90 w-full lg:w-[35%] leading-relaxed">
+              Atendimento clínico com escuta ética, responsável e acolhedora
+            </p>
+
+            <div className="mt-3 cursor-pointer bg-[#9C4F3A] px-8 py-4 rounded-lg text-sm font-medium hover:bg-[#8A4432] transition">
+              <a href="https://wa.me/5573999835281?text=Olá,%20gostaria%20de%20agendar%20uma%20sessão." target="_blank">Agendar Sessão</a>
+            </div>
+          </div>
+
+          {/* Right: Image */}
+          <div className="w-full lg:w-[40%] flex items-center justify-center lg:justify-end">
+            <img
+              src="/bruna-hero.png"
+              alt="Bruna Almeida"
+              className="w-full max-w-[420px] sm:max-w-[520px] lg:max-w-[520px] h-auto object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)]"
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* Middle */}
+      <section id="sobre" className="bg-[#F7F4F1] py-16 sm:py-20 lg:py-24">
+        <div className="mx-auto flex max-w-3xl flex-col items-center text-center px-6">
+          <h2 className="text-zinc-900 text-3xl sm:text-4xl font-medium">
+            Bruna Almeida
+          </h2>
+          <div className="mt-4 h-px w-56 sm:w-72 bg-zinc-900/40" />
+
+          <p className="mt-6 max-w-xl text-zinc-800/80 leading-relaxed text-sm sm:text-base">
+            Psicóloga clínica com formação em psicanálise. Atendo adultos que
+            buscam compreender seus conflitos, relações e emoções de forma
+            profunda e responsável.
+          </p>
+          <div className="mt-10 inline-flex items-center gap-3 rounded-sm border border-[#9C4F3A]/50 bg-transparent px-7 py-4 text-[#9C4F3A] font-medium shadow-[0_6px_18px_rgba(156,79,58,0.10)] hover:border-[#9C4F3A] hover:bg-[#9C4F3A]/10 transition cursor-pointer">
+            <a href="https://wa.me/5573999835281?text=Olá,%20gostaria%20de%20agendar%20uma%20sessão." target="_blank">Agendar Sessão</a>
+            <FiArrowRight className="text-lg" />
+          </div>
+        </div>
+      </section>
+
+      <HelpAreaSection />
+
+      <EducationSection
+        entries={[
+          {
+            institution: "UFSB",
+            description: "Bacharel em Humanidades e Psicologia",
+            active: true,
+          },
+          {
+            institution: "Uniamerica",
+            description: "Pós-graduação em Neurociência",
+            active: true,
+          },
+          {
+            institution: "Farese",
+            description: "Pós-graduação em Psicanálise",
+            active: true,
+          },
+          {
+            institution: "UNEB",
+            description: "Mestranda em Estudos literários",
+            active: true,
+          },
+        ]}
+        photoUrl="/bruna.png"
+      />
+
+      <CTASection />
+
+      <Footer
+        name="Bruna Almeida"
+        crp="CRP 03/27970"
+        devName="Jheype Studios"
+        devUrl="https://my-portfolio-mocha-eight-40.vercel.app/"
+      />
+    </main>
   );
 }
