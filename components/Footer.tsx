@@ -26,6 +26,7 @@ export default function Footer({
         <div className="mt-4 flex items-center gap-3">
           <a
             href="https://www.linkedin.com/in/bruna-almeida-4a5b8a186/"
+            target="_blank"
             aria-label="LinkedIn"
             className="inline-flex h-6 w-6 items-center justify-center rounded-sm text-[#F7F4F1]/90 hover:text-[#F7F4F1] transition"
           >
@@ -34,6 +35,7 @@ export default function Footer({
 
           <a
             href="#"
+            target="_blank"
             aria-label="Email"
             className="inline-flex h-6 w-6 items-center justify-center rounded-sm text-[#F7F4F1]/90 hover:text-[#F7F4F1] transition"
           >
@@ -42,6 +44,7 @@ export default function Footer({
 
           <a
             href="https://www.instagram.com/brunadealmeid/"
+            target="_blank"
             aria-label="Instagram"
             className="inline-flex h-6 w-6 items-center justify-center rounded-sm text-[#F7F4F1]/90 hover:text-[#F7F4F1] transition"
           >
