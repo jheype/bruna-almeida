@@ -33,7 +33,7 @@ export default function Home() {
           {/* Right */}
           <div data-aos="fade-left" className="w-full lg:w-[40%] flex items-center justify-center lg:justify-end">
             <img
-              src="/bruna-hero.png"
+              src="/bruna-hero.jpeg"
               alt="Bruna Almeida"
               className="w-full max-w-[420px] sm:max-w-[520px] lg:max-w-[520px] h-auto object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)]"
             />
