@@ -37,6 +37,7 @@ export default function HelpAreaSection() {
               bgColor="#F3EEE9"
               variant="light"
               className="md:ml-6"
+              data-aos="fade-right"
             />
 
             <HelpCard
@@ -46,6 +47,7 @@ export default function HelpAreaSection() {
               bgColor="#F3EEE9"
               variant="light"
               className="md:ml-6"
+              data-aos="fade-right"
             />
           </div>
 
@@ -58,6 +60,7 @@ export default function HelpAreaSection() {
               bgColor="#2F3E36"
               variant="dark"
               className="md:mr-6"
+              data-aos="fade-left"
             />
 
             <HelpCard
@@ -67,6 +70,7 @@ export default function HelpAreaSection() {
               bgColor="#F3EEE9"
               variant="light"
               className="md:mr-6"
+              data-aos="fade-left"
             />
           </div>
         </div>

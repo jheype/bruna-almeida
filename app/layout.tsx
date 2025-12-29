@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display } from "next/font/google";
 import "./globals.css";
+import AOSProvider from "@/components/AOSProvider";
 
 const playfairDisplay = Playfair_Display({
   variable: "--font-playfair-display",
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body
         className={`${playfairDisplay.variable} antialiased`}
       >
+        <AOSProvider />
         {children}
       </body>
     </html>

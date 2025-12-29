@@ -39,6 +39,7 @@ export default function EducationSection({
           {/* Left*/}
           <div className="flex justify-center lg:justify-start">
             <div
+              data-aos="fade-right"
               className="relative h-[330px] w-[330px] rounded-md border border-black/15 shadow-[0_12px_28px_rgba(0,0,0,0.18)] overflow-hidden bg-[#CFCFCF]">
               {photoUrl ? (
                 // eslint-disable-next-line @next/next/no-img-element

@@ -21,6 +21,7 @@ export default function HelpCard({
 
   return (
     <article
+    data-aos="fade-left"
       className={[
         "relative w-full rounded-xl border",
         isDark ? "border-white/10" : "border-black/10",

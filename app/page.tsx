@@ -4,6 +4,7 @@ import CTASection from "@/components/CTASection";
 import NavBar from "@/components/NavBar";
 import { FiArrowRight } from "react-icons/fi";
 import Footer from "@/components/Footer";
+import "aos/dist/aos.css";
 
 export default function Home() {
   return (
@@ -14,8 +15,8 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative flex w-full bg-[#2F3E36] text-[#F7F4F1] px-6 py-14 sm:px-10 sm:py-16 lg:px-20 lg:py-20 overflow-hidden">
         <div className="flex w-full flex-col lg:flex-row lg:items-center lg:justify-between gap-12">
-          {/* Left: Text (keeps your structure, just responsive widths) */}
-          <div className="flex flex-col items-start gap-6 w-full lg:w-[60%] lg:mt-10">
+          {/* Left */}
+          <div data-aos="fade-right" className="flex flex-col items-start gap-6 w-full lg:w-[60%] lg:mt-10">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-medium w-full lg:w-[65%] leading-tight">
               Psicanálise para quem deseja se conhecer com profundidade
             </h1>
@@ -29,8 +30,8 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Right: Image */}
-          <div className="w-full lg:w-[40%] flex items-center justify-center lg:justify-end">
+          {/* Right */}
+          <div data-aos="fade-left" className="w-full lg:w-[40%] flex items-center justify-center lg:justify-end">
             <img
               src="/bruna-hero.png"
               alt="Bruna Almeida"
@@ -41,7 +42,7 @@ export default function Home() {
       </section>
 
       {/* Middle */}
-      <section id="sobre" className="bg-[#F7F4F1] py-16 sm:py-20 lg:py-24">
+      <section data-aos="fade-up" id="sobre" className="bg-[#F7F4F1] py-16 sm:py-20 lg:py-24">
         <div className="mx-auto flex max-w-3xl flex-col items-center text-center px-6">
           <h2 className="text-zinc-900 text-3xl sm:text-4xl font-medium">
             Bruna Almeida
