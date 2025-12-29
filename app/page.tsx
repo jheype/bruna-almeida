@@ -72,7 +72,7 @@ export default function Home() {
           },
           {
             institution: "Uniamerica",
-            description: "Pós-graduação em Neurociência",
+            description: "Pós-graduação em Neurociência do Desenvolvimento",
             active: true,
           },
           {
