@@ -77,7 +77,7 @@ export default function Home() {
           },
           {
             institution: "Farese",
-            description: "Pós-graduação em Psicanálise",
+            description: "Pós-graduação em Teoria Psicanalítica",
             active: true,
           },
           {
