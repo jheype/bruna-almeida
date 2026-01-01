@@ -57,7 +57,7 @@ export default function Footer({
       <div className="pointer-events-auto absolute bottom-4 right-6">
         <DevTag {...(devUrl ? { href: devUrl, target: "_blank", rel: "noreferrer" } : {})}
           className="text-xs text-[#F7F4F1]/55 hover:text-[#F7F4F1]/80 transition">
-            Desenvolvido por {devName}
+            Desenvolvedor
         </DevTag>
       </div>
     </footer>

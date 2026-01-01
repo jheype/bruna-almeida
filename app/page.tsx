@@ -95,7 +95,7 @@ export default function Home() {
         name="Bruna Almeida"
         crp="CRP 03/27970"
         devName="Jheype Studios"
-        devUrl="https://my-portfolio-mocha-eight-40.vercel.app/"
+        devUrl="https://jheype.dev"
       />
     </main>
   );
